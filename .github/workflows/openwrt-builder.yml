@@ -60,7 +60,7 @@ jobs:
 
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@main
-      if:  env.SSH_ACTIONS == 'true'   
+      if:  env.SSH_ACTIONS == 'false'   
       
     - name: Load custom feeds
       run: |
